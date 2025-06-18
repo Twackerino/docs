@@ -51,10 +51,15 @@ TriggerEvent("tp_containers:server:openInventoryContainerById", containerId, hea
 ````
 ## Exports
 ### Open custom container by its ID
-
-    @parameter (number) containerId : Is the required custom container ID which is located on tp_containers sql table.
-    @parameter (text) header : If the header is not placed, it will select as the custom inventory container title the default name that has been created in first place, otherwise it will set as title the selected / input text.
-    @parameter (boolean) cb : disable transferring contents from main inventory to container?
+<ResponseField name="containerId" type="number" required>
+Is the required custom container ID which is located on tp_containers sql table.
+</ResponseField>
+<ResponseField name="header" type="string" required>
+If the header is not placed, it will select as the custom inventory container title the default name that has been created in first place, otherwise it will set as title the selected / input text.
+</ResponseField>
+<ResponseField name="cb" type="boolean" required>
+disable transferring contents from main inventory to container?
+</ResponseField>
 
 
 ````lua
