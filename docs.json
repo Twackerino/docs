@@ -33,7 +33,7 @@
             ]
           },
           {
-            "group": "TP_CONTAINERS",
+            "group": "Export & Events",
             "pages": [
               "tp_containers/exports"
             ]
