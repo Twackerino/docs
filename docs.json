@@ -31,6 +31,12 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "TP_CONTAINERS",
+            "pages": [
+              "tp_containers/exports"
+            ]
           }
         ]
       },
